@@ -7,6 +7,10 @@
   "author": "CMoore <cm4glos@gmail.com>",
   "license": "MIT",
   "private": false,
+  "engines": {
+    "node": "10.12.x",
+    "yarn": "1.10.x"
+  },
   "scripts": {
     "start": "node server/index.js",
     "server": "nodemon server/index.js"
